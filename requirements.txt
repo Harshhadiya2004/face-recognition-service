@@ -1,0 +1,25 @@
+# FastAPI and Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Pydantic for Data Validation
+pydantic==2.5.0
+
+# Face Recognition
+insightface==0.7.3
+# onnxruntime CPU version (latest version fixes executable stack security issue)
+onnxruntime>=1.19.0
+
+# Image Processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# Vector Database (pinned to 2.3.x for Milvus v2.3.3 compatibility)
+# marshmallow must be <3.0 for environs compatibility with pymilvus 2.3.x
+pymilvus==2.3.7
+marshmallow<3.0
+
+
+# HTTP Client (for testing)
+requests==2.31.0
