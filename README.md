@@ -234,9 +234,6 @@ curl -X DELETE http://localhost:8001/api/face/USER001 \
   -H "X-Username: my-org"
 ```
 
-## License
-
-MIT License - See LICENSE file for details
 
 ## Contributing
 
